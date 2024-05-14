@@ -21,3 +21,10 @@ body{
 nav, .nav-links{
     display: flex;
 }
+
+
+nav{
+    justify-content: space-around;
+    justify-items: center;
+    height: 17vh;
+}
