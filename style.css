@@ -59,7 +59,18 @@ a:hover {
     text-underline-offset: ;
 }
 
+.logo:hover{
+    cursor: default;
+}
 
+/* Hamburger Menu*/
+#hamburger-nav{
+    display: none;
+}
+
+.hamburger-menu{
+    position: relative;
+}
 
 
 
