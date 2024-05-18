@@ -56,7 +56,7 @@ a{
 a:hover {
     color: gray;
     text-decoration: underline;
-    text-underline-offset: ;
+    text-underline-offset: 1rem;
 }
 
 .logo:hover{
