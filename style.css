@@ -58,6 +58,9 @@ a:hover {
     text-decoration: underline;
     text-underline-offset: 1rem;
 }
+.logo{
+    font-size: 2rem;
+}
 
 .logo:hover{
     cursor: default;
@@ -138,14 +141,20 @@ a:hover {
 }
 
 
+
 .hamburger-icon span:first-child{
     opacity: 1;
 }
 
 
+
 .hamburger-icon span:first-child{
     transform: none;
 }
+
+/*Sections*/
+
+
 
 
 
