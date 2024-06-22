@@ -154,7 +154,53 @@ a:hover {
 
 /*Sections*/
 
+section{
+    padding-top: 4vh   ;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
 
+}
+
+.section-container{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+
+}
+
+/*Profile Section*/
+
+#profile{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.section_pic-container{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.section_text {
+    align-self: center;
+    text-align: center;
+}
+
+
+.section_text p1 {
+    font-width: 600;
+}
+
+.section_text p1 {
+    font-size: 1.75;
+
+}
 
 
 
