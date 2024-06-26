@@ -165,9 +165,9 @@ section{
 
 .section-container{
     display: flex;
-    justify-content: center;
-    gap: 5rem;
-    height: 80vh;
+    /*justify-content: center;*/
+    /*gap: 5rem;*/
+    /*height: 80vh;*/
 
 }
 
@@ -191,14 +191,21 @@ section{
     align-self: center;
     text-align: center;
 }
-
-
-.section_text p1 {
+.section_text p {
     font-width: 600;
 }
 
-.section_text p1 {
-    font-size: 1.74;
+.section_text_p1 {
+    text-align:center;
+}
+
+.section_text_p1 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.section_text_p2 {
+    font-size: 1.75rem;
     margin-bottom: 1rem;
 }
 
@@ -206,6 +213,12 @@ section{
     font-size: 3rem;
     font-align: center;
 }
+/*.section_text p2 {*/
+/*    font-size: 1.74;*/
+/*    margin-bottom: 1rem;*/
+/*}*/
+
+
 
 #socials-container{
     display: flex;
@@ -214,6 +227,16 @@ section{
     gap: 1rem;
 
 }
+/*Icons*/
+
+.icon{
+    cursor: pointer;
+    height: 2rem;
+}
+
+
+
+
 
 /*Buttons*/
 
@@ -228,18 +251,23 @@ section{
 .btn{
     font-weight: 600;
     transition: all 300ms ease;
-    lklpadding:1 rem;
+    padding: 1rem;
     widht: 8rem;
     border-radius: 2rem;
+}
+
+
+.btn-color-1,
+.btn-color-2
+{
+   border:rgb(53,53,53) 0.1rem solid;
 }
 
 .btn-color-1:hover,
 .btn-color-2:hover
 {
     cursor: pointer;
-
 }
-
 .btn-color-1,
 .btn-color-2:hover
 {
@@ -248,13 +276,27 @@ section{
 
 }
 
+.btn-color-1:hover{
+    background: black;
+}
+
 .btn-color-2{
     background: none;
 }
 
+
+
+
+
+
 .btn-color-2:hover
 {
     border: rgb(255,255, 255) 0.1rem solid;
+}
+
+
+.btn-container{
+ gap: 1rem;
 }
 
 
